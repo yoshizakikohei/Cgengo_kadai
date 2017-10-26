@@ -1,0 +1,34 @@
+﻿Build started 2017/10/26 11:19:31.
+     1>Project "C:\Users\user\Documents\Visual Studio 2010\Projects\kadai\kadai3\kadai3\kadai3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\kadai3.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt kadai3.cpp /clr:nostdlib 
+         kadai3.cpp
+     1>kadai3.cpp(35): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>kadai3.cpp(45): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>kadai3.cpp(50): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>kadai3.cpp(21): warning C4101: 'n' : unreferenced local variable
+     1>kadai3.cpp(22): warning C4101: 's' : unreferenced local variable
+     1>kadai3.cpp(22): warning C4101: 'e' : unreferenced local variable
+     1>kadai3.cpp(22): warning C4101: 'm' : unreferenced local variable
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2010\Projects\kadai\kadai3\Debug\kadai3.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\kadai3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2010\Projects\kadai\kadai3\Debug\kadai3.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\kadai3.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         kadai3.vcxproj -> C:\Users\user\Documents\Visual Studio 2010\Projects\kadai\kadai3\Debug\kadai3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\user\Documents\Visual Studio 2010\Projects\kadai\kadai3\Debug\kadai3.exe;#1" /manifest Debug\kadai3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\kadai3.unsuccessfulbuild".
+         Touching "Debug\kadai3.lastbuildstate".
+     1>Done Building Project "C:\Users\user\Documents\Visual Studio 2010\Projects\kadai\kadai3\kadai3\kadai3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.32

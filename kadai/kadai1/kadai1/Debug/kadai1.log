@@ -1,0 +1,31 @@
+﻿Build started 2017/10/25 17:54:43.
+     1>Project "C:\Users\user\Desktop\kadai1\kadai1\kadai1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\kadai1.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt kadai1.cpp /clr:nostdlib 
+         kadai1.cpp
+     1>kadai1.cpp(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>kadai1.cpp(20): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>kadai1.cpp(24): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>kadai1.cpp(6): warning C4101: 'ret' : unreferenced local variable
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\kadai1\Debug\kadai1.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\kadai1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Desktop\kadai1\Debug\kadai1.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\kadai1.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         kadai1.vcxproj -> C:\Users\user\Desktop\kadai1\Debug\kadai1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\user\Desktop\kadai1\Debug\kadai1.exe;#1" /manifest Debug\kadai1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\kadai1.unsuccessfulbuild".
+         Touching "Debug\kadai1.lastbuildstate".
+     1>Done Building Project "C:\Users\user\Desktop\kadai1\kadai1\kadai1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07
